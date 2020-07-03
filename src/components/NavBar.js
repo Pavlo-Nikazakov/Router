@@ -5,7 +5,9 @@ export default function NavBar() {
   return (
     <div>
       <li>
-        <NavLink to="/HomePage">Home Page</NavLink>
+        <NavLink exact={true} to="/HomePage">
+          Home Page
+        </NavLink>
       </li>
       <li>
         <NavLink to="/AboutPage">About ths Website</NavLink>

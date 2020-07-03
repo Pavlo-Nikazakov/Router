@@ -5,15 +5,19 @@ export default function NavBar() {
   return (
     <div>
       <li>
-        <NavLink exact={true} to="/HomePage">
+        <NavLink exact to="/HomePage">
           Home Page
         </NavLink>
       </li>
       <li>
-        <NavLink to="/AboutPage">About ths Website</NavLink>
+        <NavLink exact to="/AboutPage">
+          About ths Website
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/DiscoverMoviesPage">Movies</NavLink>
+        <NavLink exact to="/DiscoverMoviesPage">
+          Movies
+        </NavLink>
       </li>
     </div>
   );
